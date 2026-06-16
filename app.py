@@ -91,6 +91,12 @@ The application uses a **Long Short-Term Memory (LSTM)** neural network built wi
 - 🔍 Analysis of long-term consumption trends.
 """)
 
+
+st.success("""
+⚡ **Forecast Information**
+
+The historical dataset contains hourly energy consumption records up to **2018-08-02 23:00:00**. Using the trained LSTM model, future electricity demand is forecasted beginning from **2018-08-03 00:00:00** onward.
+""")
 st.write(
     "Forecast future electricity demand using LSTM."
 )
